@@ -57,4 +57,4 @@ Feel free to fork the repository and submit pull requests. Contributions and imp
 
 ## License
 
-This project is licensed under the GNUv3 License. See the `LICENSE` file for details.
+This project is licensed under the GPL-3.0 License. See the `LICENSE` file for details.
