@@ -1,8 +1,8 @@
 # utils.R script
 #
-# v0.4 - 2024-07-31 - create public repository in my personal profile
+# v0.4.1 - 2024-07-31 - change work-days.txt url
 #
-# script for several utilitaries functions
+# script for several utilitarians functions
 #
 
 # create environment to objetcts to be changed inside functions
@@ -16,8 +16,8 @@ if (!('readr' %in% (.packages()))) {
 }
 
 # lista de dias uteis utilizada em funções para manipulação de datas
-# utiliza url para compatibilidade com shinyapp
-work_days <- read_lines('https://drive.google.com/uc?export=download&id=13oJo2oH9D1kUipHlW34fbWmwE2O-pKsv', skip = 1)
+work_days <- read_lines('https://drive.google.com/uc?export=download&id=1x-Sp_5GON4s9sfpGOGnNPE0Gx-jaiS6y', 
+                        skip = 1)
 
 # FUNCTIONS
 
