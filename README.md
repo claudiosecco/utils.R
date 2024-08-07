@@ -35,7 +35,7 @@ The script checks for and loads necessary packages automatically. The required p
 
 The script relies on an external list of working days, which is loaded from a Google Drive link for compatibility with Shiny applications.
 
-## Usage
+## Local Usage
 
 1. Clone the repository:
 
@@ -50,6 +50,15 @@ The script relies on an external list of working days, which is loaded from a Go
    ```
 
 3. Call the functions as needed in your R scripts or Shiny applications.
+
+## URL Usage
+
+You can source the script directly via Github URL
+
+```r
+utils_url <- "https://raw.githubusercontent.com/claudiosecco/utils.R/main/utils.R"
+source(url(utils_url))
+```
 
 ## Contribution
 
